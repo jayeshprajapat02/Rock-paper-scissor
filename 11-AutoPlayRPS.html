@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Auto-play_RPS</title>
+  <link rel="stylesheet" href="../styles/AutoPlayRPS.css">
+</head>
+<body>
+  <p class="title">Rock Paper Scissor</p>
+  <div class="image-div">
+    <button class="button-icon" onclick="
+    playGame('Rock');
+  "><img src="handimage/Rock-emoji.png" class="img-icon"></button>
+<button class="button-icon" onclick="
+  playGame('Paper');
+  "><img src="handimage/Paper-emoji.png" class="img-icon"></button>
+<button class="button-icon" onclick="
+  playGame('Scissor');
+  "><img src="handimage/Scissor-emoji.png" class="img-icon"></button>
+  </div>
+
+
+    <p class="result"></p>
+    <div class="choice-div">
+      <p class="Choice"> 
+      </p>
+    </div>
+    <p class="stats"></p>
+    <div class="end-button">
+      <button class="reset" onclick="reset()">Reset</button>
+      <button class="auto-play" onclick="autoPlay()">Auto Play</button>
+    </div>
+    
+  <script src="../script/AutoPlayRPS.js"></script>
+</body>
+</html>

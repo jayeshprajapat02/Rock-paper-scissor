@@ -1,0 +1,67 @@
+body{
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial;
+}
+.title{
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+.img-icon{
+  height: 50px; 
+}
+.button-icon{
+  background: transparent;
+  border: 3px solid white;
+  height: 130px;
+  width: 130px;
+  border-radius: 65px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.image-div{
+  display: flex;
+  justify-content: center;
+}
+.result{
+  font-size: 25px;
+  margin-top: 50px;
+  margin-left: 10px;
+  text-align: center;
+}
+.Choice{
+  display: inline-block;
+  margin-left: 80px;
+  margin-top: 0px;
+}
+.choice-div{
+  display: flex;
+  justify-content: center;
+  padding-right: 40px;
+}
+.img-div{
+  display: inline-block;
+}
+.img-choice{
+  height: 40px;
+  display: inline;
+  margin-right: 20px;
+}
+.stats{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.reset, .auto-play{
+  background-color: rgb(204, 202, 197);
+  font-size: 18px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.end-button{
+  padding-left: 28px;
+  display: flex;
+  justify-content: center;
+}
