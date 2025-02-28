@@ -36,6 +36,7 @@ function autoPlay(){
     intervalId = setInterval( ()=> {
       const playerMove = computerChoice();
       playGame(playerMove);
+      isAutoPlaying = true;
     }, 1000);
   }
   else{
